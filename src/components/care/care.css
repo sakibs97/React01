@@ -1,0 +1,59 @@
+#care{
+    background-color: #E5E5E5;
+    padding-top: 25px;
+}
+.care_head{
+    width: 600px;
+}
+.care_head p{
+    margin-top: 15px;
+}
+.care_dtls{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.care_part{
+    border: 2px solid #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 45px;
+    background-color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.care_part:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.care_part:hover .care_logo{
+    background-color: rgba(235, 36, 14, 0.50);
+}
+.care_part p{
+    width: 300px;
+    padding: 10px 0;
+}
+.care_part span:hover {
+    color: rgba(235, 191, 14, 0.91);
+}
+.care_text{
+    position: relative;
+    margin-top: 15px;
+}
+.care_text a{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 600;    
+}
+.care_text h4{
+    color: hsl(0, 0%, 9%, 0.58);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.care_logo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

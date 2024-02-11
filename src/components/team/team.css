@@ -1,0 +1,62 @@
+.team_head{
+    text-align: center;
+}
+.team_head p{
+    margin: 0 auto;
+    width: 540px;
+}
+.team_dtls{
+    display: flex;
+    justify-content: space-around;
+}
+.team_img{
+    position: relative;
+    margin: 50px 50px 25px 0;    
+}
+.img_p img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.text{
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+}
+.team_img:hover .text{
+    opacity: 1;
+}
+.team_img:hover .img_back{
+    opacity: 1;
+}
+.img_back{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(89, 86, 232, 0.40);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.text{
+    text-align: center;
+    opacity: 0;
+}
+.text a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.text h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+

@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1320px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+p{
+  font-size: 16px;
+  font-weight: 400;
+}
+h2{
+  color: #181818;
+  font-size: 40px;
+  font-weight: 600;
+}
+h3{
+  color: #181818;
+  font-size: 20px;
+  font-weight: 500;
+}

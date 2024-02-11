@@ -1,0 +1,25 @@
+.nav_main{
+    display: flex;    
+    margin-top: 25px;
+}
+.logo{
+    margin-right: 200px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    padding: 20px 30px;
+}
+.menu ul li a{
+    color: #181818;
+    font-size: 18px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: #5956E8;
+}
